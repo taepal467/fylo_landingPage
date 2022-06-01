@@ -1,0 +1,19 @@
+#email:invalid {
+    border: 2px solid hsl(0, 93%, 68%);
+
+    .error-msg {
+        display: none;
+        color: hsl(0, 93%, 68%);
+        font-style: italic;
+        font-weight: 300;
+    }
+    
+    .error-msg.visible {
+        display: inline-block;
+    }
+}
+
+
+
+
+

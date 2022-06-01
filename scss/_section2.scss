@@ -1,0 +1,86 @@
+//Stay productive, wherever you are
+
+section.stay-productive-section {
+   background-image: url(../images/bg-curve-mobile.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 470vw 180vh;
+   margin-top: 8rem;
+   padding-bottom: 7.5rem;
+    @include Flex-Col-Center;
+    text-align: left;
+
+    .illustration-2 {
+        height: 70vh;
+        padding: 8rem 1rem 4rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        padding: 2rem 2rem 1.5rem;
+    }
+
+    p.section2-content {
+        color: $primary-Desaturated-Blue;
+        padding: 0.5rem 3rem 1rem 1.75rem;
+        line-height: 1.5;
+    }
+
+    .section2-link {
+        display: flex;
+        color: $accent-Moderate-Cyan;
+        text-decoration: none;
+        padding-bottom: 7px;
+        padding-top: 1.5rem;
+        border-bottom: 2px solid $accent-Moderate-Cyan;
+
+        .arrow {
+            height: 3vh;
+            padding-left: 10px;
+        }
+    }
+}
+
+.testimonial-box {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #888888;
+    width: 75vw;
+    height: 30vh;
+    padding: 1.5rem 0.5rem 13rem 1.75rem;
+    margin-top: 70px;
+
+    p {
+        color: $primary-Very-Dark-Blue;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    .kyle {
+        display: flex;
+        margin-top: 12px;
+        padding-bottom: 50px;
+
+        .titles {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.5;
+
+            h3 {
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            h4 {
+                font-size: 10px;
+            }
+        }
+
+        .avatar {
+            border-radius: 100%;
+            height: 5vh;
+            margin-right: 1rem;
+        }
+    }
+}

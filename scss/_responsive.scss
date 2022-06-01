@@ -1,0 +1,186 @@
+@media screen and (min-width: 768px) {
+    section.all-your-files-section {
+        input {
+            padding-left: 5rem;
+            padding-right: 10rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        .nav-logo {
+            width: 10vw;
+        }
+    }
+
+    section.all-your-files-section {
+        display:flex;
+        flex-direction: row-reverse;
+        text-align: left;
+        padding-left: 4rem;
+        padding-right: 3rem;
+
+        h1 {
+            line-height: 1.5;
+        }
+
+        div.section1-content {
+            padding-right: 10rem;
+        }
+
+        div.email-input {
+            display: grid;
+            grid-template-columns: 300px 20px;
+            gap: 15px;
+            margin-left: -230px;
+
+            input {
+                padding: 0.7rem 0;
+            }
+
+            .section1-btn {
+                padding: 0.25rem 7rem;
+                margin-top: -16px;
+                width: 20vw;
+
+                &:hover {
+                    opacity: 70%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
+    section.stay-productive-section {
+        background-image: url(../images/bg-curve-desktop.svg);
+         background-position: center;
+        background-repeat: no-repeat;
+    
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 0 3rem 7.5rem 3rem;
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 5rem;
+        }
+
+        .illustration-2 {
+            margin-top: -2rem;
+            position: relative;
+            top: -40px;
+        }
+
+        div.section2-main-content {
+            display: flex;
+            flex-direction: column;
+
+            p.section2-content {
+                padding-right: 8rem;
+            }
+        }
+
+        .section2-link {
+            display: flex;
+            padding-bottom: 7px;
+            padding-top: 1.5rem;
+            border-bottom: 2px solid $accent-Moderate-Cyan;
+            width: 20%;
+            margin-left: 32px;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 70%;
+            }
+        }
+
+        .testimonial-box {
+            width: 25vw;
+            padding: 1.5rem 0.5rem 13rem 1.75rem;
+            margin-top: 70px;
+            margin-left: 32px;
+        }
+
+    }
+
+    section.get-early-section {
+        display: flex;
+        text-align: left;
+
+        .section3-content {
+            display: flex;
+            flex-direction: column;
+            padding-right: 25rem;
+        }
+
+        .email-input {
+            input {
+                padding-left: 7rem;
+                padding-right: 7rem;
+            }
+          
+            .section3-btn {
+                padding: 0.75rem 2rem;
+                margin-left: -170px;
+
+                &:hover {
+                    opacity: 80%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 5rem;
+   
+
+        .footer-items {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            padding-bottom: 60px;
+
+            .footer-link {
+                &:hover {
+                    color: $accent-Bright-Blue;
+                    cursor: pointer;
+                }
+            }
+
+            .first-set,
+            .second-set {
+                margin-top: 0;
+            }
+
+            .first-set {
+                margin-top: 100px;
+                margin-left: -100px;
+            }
+
+            .second-set {
+                margin-left: 60px;
+                margin-top: -112px;
+            }
+        }
+
+        .social-icons {
+            .fa-brands {
+                &:hover {
+                    border-color: $accent-Bright-Blue;
+                    color:$accent-Bright-Blue;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}   
+

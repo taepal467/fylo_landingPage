@@ -1,0 +1,50 @@
+@import "configs", "header", "section1", "section2", "section3", "footer", "responsive","errorMsg";
+
+body,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header,
+button,
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.email-input {
+    @include Flex-Col-Center;
+     text-align: center;
+
+     input  {
+         border: 1px solid black;
+         border-radius: 3px;
+         margin-bottom: 15px;
+         padding: 0.75rem 0;
+
+         &::placeholder {
+             color:$neutral-Light-Gray;
+             padding-left: 20px;
+         }
+     }
+
+    .btn {
+        background-color: $accent-Bright-Blue;
+        border: none;
+        border-radius: 3px;
+        color: $neutral-Light-Grayish-Blue; 
+        font-weight: 700;
+    }
+ }
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: left; 
+}
+.attribution a { 
+    color: $neutral-Light-Grayish-Blue;
+    text-decoration: none; 
+}

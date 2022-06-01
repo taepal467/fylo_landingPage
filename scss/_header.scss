@@ -1,0 +1,21 @@
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+
+    .nav-logo {
+        width: 170px;
+        padding: 2.5rem 0 2.5rem 2rem;
+    }
+
+    .nav-list-item {
+        display: inline;
+        padding-right: 1.5rem;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: $primary-Very-Dark-Blue;
+    }
+}

@@ -1,0 +1,79 @@
+footer {
+    background-color: $primary-Very-Dark-Blue;
+    color: $neutral-Light-Grayish-Blue;
+    text-align: left;
+    padding: 3rem 0 2rem 3rem;
+    line-height: 2;
+    font-size: 14px;
+
+    .footer-logo {
+        filter: brightness(0) invert(1);
+        padding: 1rem 0 2rem;
+    }
+
+    .call-info {
+        display: flex;
+        padding-bottom: 10px;
+
+        p {
+            margin-top: -5px;
+        }
+
+        .📞 {
+            padding-right: 1rem;
+            height: 2.5vh;
+        }
+    }
+
+    .email-info {
+        display: flex;
+
+        p {
+            margin-top: -5px;
+        }
+
+        .📧 {
+            padding-right: 1rem;
+            height: 2.5vh;
+        }
+    }
+
+    .footer-list {
+        .footer-list-item {
+            list-style: none;
+
+        }
+
+        .footer-link {
+            color: inherit;
+            text-decoration: none;
+        }
+      
+    }
+
+    .first-set,
+    .second-set {
+        margin-top: 40px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+
+        .fa-brands {
+            border: 1px solid $neutral-Light-Grayish-Blue;
+            border-radius: 100%;
+            font-size: 12px;
+            padding: 7px;
+        }
+
+        .twitter-icon {
+            margin: 0 0.7rem;
+        }
+    }
+
+  
+}
