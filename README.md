@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://iridescent-nasturtium-aab0b7.netlify.app)
 
 ## My process
 
@@ -46,7 +46,7 @@ For this project, the grade I've given myself is a C.
 ## Author
 
 - Website - [Portfolio](https://taepal467.github.io/Chantae_P/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/taepal467)
+- Frontend Mentor - [@taepal467](https://www.frontendmentor.io/profile/taepal467)
 
 
 
